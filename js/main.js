@@ -1,2 +1,7 @@
-console.log("Yes");
-console.log("Yes !!!");
+document.addEventListener("DOMContentLoaded", () => {
+  console.log("yes");
+
+
+
+
+});
