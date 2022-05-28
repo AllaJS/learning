@@ -1,0 +1,68 @@
+body {
+  background-color: #f1f1f1;
+  color: #0f141e;
+  font-size: 16px;
+  font-weight: normal;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+h2 {
+  color: red;
+}
+
+.header {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.hobbies {
+  font-family: "Macondo", cursive;
+  letter-spacing: 1px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.hobbies:hover {
+  color: red;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.hobbies:after {
+  content: "!!!";
+}
+.avatar {
+  width: 200px;
+  border-radius: 28px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+.info p {
+  color: #86898f;
+  margin: 0;
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: none;
+  /*text-transform: uppercase*/
+  /*letter-spacing: 15px*/
+  /* word-spacing: 42px*/
+}
+/*Box modal*/
+.container {
+  max-width: 750px;
+  margin: auto;
+}
+.social {
+  background: green;
+  /*padding: 15px; */
+  /*padding: 15px 40px; */
+  /*padding: 15px 20px 25px 30px; */
+  padding-top: 15px;
+  padding-right: 20px;
+  padding-bottom: 25px;
+  padding-left: 30px;
+  border: 5px solid red;
+  border-bottom-style: double;
+  border-top-width: 15px;
+  border-right-color: blue;
+  margin: 5px;
+}
