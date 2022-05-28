@@ -66,3 +66,10 @@ h2 {
   border-right-color: blue;
   margin: 5px;
 }
+.box-model > div {
+  float: left;
+  background-color: #000;
+  height: 200px;
+  width: 25%;
+  border: 4px solid red;
+}
