@@ -16,53 +16,85 @@
   </head>
 
   <body>
-    <div class="container">
-      <!-- <div class="info">
+    <header class="header container">
+      <div class="info">
         <img
           src="https://portal.medcard24.net/media/cache/cc/e6/cce6827efcdd279d7fb0fe15f8eeb265.jpg"
           class="avatar"
         />
-        <h1>Hello world!</h1>
 
-        <hr />
-        <div class="header" id="header"><h1>Alla's Learning !</h1></div>
-        <p><strong>Я Алла Семак</strong></p>
-        <p>Я пытаюсь учить програмирование</p>
-      </div> -->
+        <div class="info-text">
+          <h1>Alla's Learning !</h1>
 
-      <!-- <h2 class="hobbies">Мои хобби</h2>
+          <p><strong>Я Алла Семак</strong></p>
+          <p>Я пытаюсь учить програмирование</p>
 
-      <li>Спорт</li>
-      <li>Путешествия</li>
-      <li>Здоровье</li> -->
+          <h4>Моя електронная почта</h4>
 
-      <!-- <div class="social">
-        <h2>Моя електронная почта</h2>
-        <ul>
-          <li>
-            <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank">
-              gmail почта
-            </a>
-          </li>
-        </ul>
-      </div> -->
-
-      <h2>Связаться со мной</h2>
-      <form>
-        <div>
-          <label for="name">Ваше имя:</label>
-          <input type="text" id="name" placeholder="Введите ваше имя..." />
+          <a class="my-a" href="https://google.com" target="_blank">
+            to google
+          </a>
         </div>
-        <br />
-        <input type="submit" />
-      </form>
-    </div>
-    <div class="box-model">
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-    </div>
-    <div style="margin-bottom: 500px">jjjjj</div>
+      </div>
+    </header>
+
+    <main class="container">
+      <div class="card bg-yellow">
+        <h2>Мои хобби</h2>
+        <ol class="list">
+          <li>Спорт</li>
+          <li>Путешествия</li>
+          <li>Здоровье</li>
+        </ol>
+      </div>
+
+      <div class="card bg-green">
+        <h2>Опыт работы</h2>
+        <table class="table">
+          <tr>
+            <td>Med</td>
+            <td>doctor</td>
+            <td>2017-2018</td>
+          </tr>
+          <tr>
+            <td>Med</td>
+            <td>doctor</td>
+            <td>2019-2020</td>
+          </tr>
+          <tr>
+            <td>Med</td>
+            <td>doctor</td>
+            <td>2020-2021</td>
+          </tr>
+          <tr>
+            <td>Med</td>
+            <td>doctor</td>
+            <td>2021-2022</td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="contact">
+        <div class="card bg-red">
+          <h2>Связаться со мной</h2>
+
+          <form action="/">
+            <div class="form-group">
+              <label for="name">Ваше имя:</label>
+              <input type="text" id="name" placeholder="Введите ваше имя..." />
+            </div>
+
+            <input class="btn" type="submit" />
+          </form>
+          <div class="position">
+            <div class="box"></div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div style="margin-bottom: 500px">jjjjj</div>
+    </footer>
   </body>
 </html>
