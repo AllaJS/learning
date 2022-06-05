@@ -13,88 +13,66 @@
       rel="stylesheet"
     />
     <script defer src="./js/main.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
-    <header class="header container">
-      <div class="info">
-        <img
-          src="https://portal.medcard24.net/media/cache/cc/e6/cce6827efcdd279d7fb0fe15f8eeb265.jpg"
-          class="avatar"
-        />
-
-        <div class="info-text">
-          <h1>Alla's Learning !</h1>
-
-          <p><strong>Я Алла Семак</strong></p>
-          <p>Я пытаюсь учить програмирование</p>
-
-          <h4>Моя електронная почта</h4>
-
-          <a class="my-a" href="https://google.com" target="_blank">
-            to google
-          </a>
+    <header>
+      <div class="wrapper">
+        <nav>
+          <ul class="nav">
+            <li><a href="">Доставка</a></li>
+            <li><a href="">Оплата</a></li>
+            <li><a href="">Отзывы</a></li>
+            <li><a href="">Вопрос-ответ</a></li>
+            <li><a href="">Контакты</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="bg-white">
+        <div class="header">
+          <div class="wrapper">
+            <div class="header-top">
+              <div class="logo">
+                <span class="logo-image"></span><span>CashBag</span>
+              </div>
+              <div class="header-info">
+                <span>8(812)123-45-67</span>
+                <button type="button">Обратный звонок</button>
+              </div>
+            </div>
+          </div>
+          <hr />
+          <div class="wrapper">
+            <div class="header-bottom">
+              <ul class="nav">
+                <li><a href="#">Парикмахерская</a></li>
+                <li><a href="#">Барбершоп</a></li>
+                <li><a href="#">Маникюр</a></li>
+                <li><a href="#">Педикюр</a></li>
+                <li><a href="#">Массаж</a></li>
+                <li><a href="#">Мебель</a></li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
     </header>
 
-    <main class="container">
-      <div class="card bg-yellow">
-        <h2>Мои хобби</h2>
-        <ol class="list">
-          <li>Спорт</li>
-          <li>Путешествия</li>
-          <li>Здоровье</li>
-        </ol>
+    <section class="banner">
+      <div class="wrapper">
+        <h1 class="title">Супер кресло</h1>
+        <p>
+          Текст акции отображает суть, а не просто болтовню, поетому
+          внимательнее
+        </p>
+        <a class="btn" href="#">Подробнее</a>
       </div>
-
-      <div class="card bg-green">
-        <h2>Опыт работы</h2>
-        <table class="table">
-          <tr>
-            <td>Med</td>
-            <td>doctor</td>
-            <td>2017-2018</td>
-          </tr>
-          <tr>
-            <td>Med</td>
-            <td>doctor</td>
-            <td>2019-2020</td>
-          </tr>
-          <tr>
-            <td>Med</td>
-            <td>doctor</td>
-            <td>2020-2021</td>
-          </tr>
-          <tr>
-            <td>Med</td>
-            <td>doctor</td>
-            <td>2021-2022</td>
-          </tr>
-        </table>
-      </div>
-
-      <div class="contact">
-        <div class="card bg-red">
-          <h2>Связаться со мной</h2>
-
-          <form action="/">
-            <div class="form-group">
-              <label for="name">Ваше имя:</label>
-              <input type="text" id="name" placeholder="Введите ваше имя..." />
-            </div>
-
-            <input class="btn" type="submit" />
-          </form>
-          <div class="position">
-            <div class="box"></div>
-          </div>
-        </div>
-      </div>
-    </main>
-
-    <footer class="footer">
-      <div style="margin-bottom: 500px">jjjjj</div>
-    </footer>
+    </section>
   </body>
 </html>
