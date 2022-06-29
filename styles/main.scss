@@ -1,34 +1,47 @@
 @import url("./_vars.scss");
 
+:root {
+  --blue: #243bbf;
+  --white: #fff;
+}
+
 * {
   box-sizing: border-box;
 }
 
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
 body {
   margin: 0;
+  background-color: #ffff;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  color: #080d26;
 }
 
 .container {
-  max-width: 1236px;
+  max-width: 1170px;
   margin: 0 auto;
 }
 
-.header-container {
+.button {
   display: flex;
+  gap: 10px;
+  width: 203px;
+  height: 55px;
+  border: 2x solid var(--blue);
+  color: #ffff;
+  justify-content: center;
   align-items: center;
-  justify-content: space-between;
 
-  border: 1px solid red;
+  background-color: var(--blue);
+  cursor: pointer;
 }
 
-.logo {
-  margin-right: 32px;
-}
-.navBar {
-  display: flex;
-  gap: 16px;
-}
-
-.navBar-item {
-  list-style-type: none;
+.button.lg {
+  min-width: 305px;
 }

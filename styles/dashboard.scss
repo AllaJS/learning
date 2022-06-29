@@ -1,0 +1,54 @@
+.dashboardImg {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 90px;
+  border-radius: 43px;
+  border: 19px solid #e7e7e7;
+}
+
+.phone {
+  display: flex;
+  justify-content: space-between;
+}
+
+.phone-title {
+  width: 535px;
+  font-size: 32px;
+  font-weight: 600;
+  margin-top: 221px;
+  margin-bottom: 73px;
+}
+.store-wrap {
+  display: flex;
+  gap: 30px;
+}
+.store-wrap-item {
+  height: auto;
+  padding: 14px 18px;
+  border-radius: 10px;
+  cursor: default;
+  justify-content: flex-start;
+  gap: 18px;
+}
+.store-wrap-item p {
+  margin: 0;
+  font-size: 10px;
+}
+.store-wrap-item a {
+  font-size: 18px;
+  color: #fff;
+}
+
+.store-wrap-item img {
+  width: 24px;
+}
+
+.imgphone {
+  border: 19px solid #e7e7e7;
+  border-radius: 43px;
+}
+.ellipse {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 73px;
+}

@@ -1,0 +1,16 @@
+.text-groups {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 96px;
+}
+.text {
+  width: 372px;
+  height: 291px;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 14px 25px 52px 25px;
+  box-shadow: 0px 4px 4px grey;
+}
+.text h2 {
+  color: #243bbf;
+}

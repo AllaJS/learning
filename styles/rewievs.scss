@@ -1,0 +1,41 @@
+.rewievs {
+  margin-bottom: 203px;
+}
+.slider-wrap {
+  display: flex;
+  align-items: center;
+  gap: 133px;
+}
+
+.rewievs h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #243bbf;
+  margin-bottom: 73px;
+}
+.rws {
+  display: flex;
+  position: relative;
+  flex-grow: 1;
+}
+.rws-imgWrap {
+  position: relative;
+}
+.rws-imgWrap p {
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+}
+.rws-imgWrap p:last-child {
+  bottom: 0;
+}
+.rws-text {
+  width: 575px;
+  padding: 25px 40px;
+  background: var(--white);
+  position: absolute;
+  font-size: 20px;
+  right: -40px;
+  top: 120px;
+  box-shadow: 0px 4px 4px grey;
+}
