@@ -1,36 +1,38 @@
-.questions h2 {
-  font-size: 36px;
-  font-weight: 700;
-  color: var(--blue);
-}
+.questions {
+  & > h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--blue);
+  }
 
-.questions h4 {
-  font-size: 24px;
-  font-weight: 500;
-  color: var(--blue);
+  & > h4 {
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--blue);
+  }
 }
 .form-group {
   display: flex;
   flex-direction: column;
-}
 
-.form-group label {
-  font-size: 16px;
-  margin-bottom: 14px;
-}
-.form-group input {
-  font-size: 24px;
-  color: #c4c4c4;
-  border: 3px solid #d4d9f2;
-  margin-bottom: 64px;
-  padding: 16px 24px;
-}
-.form-group textarea {
-  color: #c4c4c4;
-  font-size: 24px;
-  border: 3px solid #d4d9f2;
-  padding-top: 16px;
-  padding-left: 24px;
+  label {
+    font-size: 16px;
+    margin-bottom: 14px;
+  }
+  input {
+    font-size: 24px;
+    color: #c4c4c4;
+    border: 3px solid #d4d9f2;
+    margin-bottom: 64px;
+    padding: 16px 24px;
+  }
+  textarea {
+    color: #c4c4c4;
+    font-size: 24px;
+    border: 3px solid #d4d9f2;
+    padding-top: 16px;
+    padding-left: 24px;
+  }
 }
 .pg {
   display: flex;
@@ -40,11 +42,4 @@
   width: 255px;
   margin-top: 56px;
   margin-bottom: 73px;
-}
-
-.last {
-  background-color: var(--blue);
-  color: var(--white);
-  margin-bottom: 150px;
-  height: 534px;
 }

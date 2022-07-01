@@ -16,53 +16,56 @@
   display: flex;
   flex-direction: column;
 }
-.list-first li:first-child {
-  font-size: 24px;
-}
 .list-first {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   font-size: 16px;
-}
-.list-first li {
-  padding-top: 40px;
-  padding-bottom: 20px;
-}
 
-.second-list li:first-child {
-  font-size: 24px;
+  li:first-child {
+    font-size: 24px;
+  }
+  li {
+    padding-top: 40px;
+    padding-bottom: 20px;
+  }
 }
 
 .second-list {
   font-size: 16px;
-}
-.second-list li {
-  padding-top: 40px;
-  padding-bottom: 20px;
+
+  li:first-child {
+    font-size: 24px;
+  }
+
+  li {
+    padding-top: 40px;
+    padding-bottom: 20px;
+  }
 }
 .socIcon-wrap {
   display: flex;
   gap: 26px;
-}
-.socIcon-wrap a {
-  background-size: contain;
-  display: block;
-  width: 35px;
-  height: 35px;
-}
 
-.social-facebook {
-  background-image: url(../img/facebook\ .svg);
-}
-.social-instagram {
-  background-image: url(../img/INSTAGRAM.svg);
-}
-.social-linkedin {
-  background-image: url(../img/LINKEDIN.svg);
-}
-.social-twitter {
-  background-image: url(../img/TWITTER.svg);
+  a {
+    background-size: contain;
+    display: block;
+    width: 35px;
+    height: 35px;
+  }
+
+  &-facebook {
+    background-image: url(../img/facebook\ .svg);
+  }
+  &-instagram {
+    background-image: url(../img/INSTAGRAM.svg);
+  }
+  &-linkedin {
+    background-image: url(../img/LINKEDIN.svg);
+  }
+  &-twitter {
+    background-image: url(../img/TWITTER.svg);
+  }
 }
 
 .footerbottom {
