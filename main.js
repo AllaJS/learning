@@ -10,6 +10,7 @@ import './styles/footer.scss';
 
 //js
 import {showAlert} from './js/base';
+import './js/lesson1';
 
 
 
